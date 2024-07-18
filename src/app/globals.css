@@ -1,0 +1,40 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@keyframes horizontalWave {
+  0%, 100% {
+    d: path("M0,10 C240,17 480,3 720,10 960,17 1200,3 1440,10");
+  }
+  50% {
+    d: path("M0,10 C240,3 480,17 720,10 960,3 1200,17 1440,10");
+  }
+}
+
+@keyframes floatingBubble {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+}
+
+:root {
+  --gradient-color: linear-gradient(to bottom, #87CEEB, #1E90FF, #4B0082);
+  --wave-color: #1E90FF;
+  --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gradient-color: linear-gradient(to bottom, #437daf, #023e8a, #240b36);
+    --wave-color: #023e8a;
+    --text-color: white;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
