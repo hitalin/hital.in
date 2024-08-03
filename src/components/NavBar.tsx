@@ -65,9 +65,6 @@ const NavBar = () => {
       <Link href='#contact' className={linkStyles} title='Contact'>
         <p>Contact</p>
       </Link>
-      <Link href='#friend' className={linkStyles} title='Friend'>
-        <p>Friend</p>
-      </Link>
     </nav>
   );
 };

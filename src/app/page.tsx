@@ -2,7 +2,6 @@ import NavBar from '../components/NavBar';
 import Bubble from '../components/Bubble';
 import About from '../components/About';
 import Contact from '../components/Contact';
-import Friend from '../components/Friend';
 import Message from '../components/Message';
 import { css } from '../../styled-system/css';
 
@@ -45,9 +44,6 @@ export default function Home() {
         </div>
         <div id='contact' className={componentWrapperStyles}>
           <Contact />
-        </div>
-        <div id='friend' className={componentWrapperStyles}>
-          <Friend />
         </div>
         <div id='message' className={componentWrapperStyles}>
           <Message />
