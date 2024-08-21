@@ -1,7 +1,7 @@
-import { FaStickyNote, FaTwitter, FaInstagram , FaTelegramPlane, FaGithub, FaTwitch, FaDiscord, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaStickyNote, FaTwitter, FaInstagram, FaTelegramPlane, FaGithub, FaTwitch, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
-import { BsThreads } from "react-icons/bs";
-import { PiButterflyFill } from "react-icons/pi";
+import { BsThreads } from 'react-icons/bs';
+import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 
 import { css } from '../../styled-system/css';
@@ -65,7 +65,10 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='xmpp:hitalin@cock.li?omemo-sid-1522580533=a364484c7c74a0d427b89d8a5613de8c2fc0179ea493392242348b0e597d9b06;omemo-sid-1157939698=44afeb6e69c09ccb0db769cba844a8eab246066e54147eabb65590d3ad90e411' className={linkStyles}>
+          <a
+            href='xmpp:hitalin@cock.li?omemo-sid-1522580533=a364484c7c74a0d427b89d8a5613de8c2fc0179ea493392242348b0e597d9b06;omemo-sid-1157939698=44afeb6e69c09ccb0db769cba844a8eab246066e54147eabb65590d3ad90e411'
+            className={linkStyles}
+          >
             <SiXmpp /> XMPP
           </a>
         </li>
@@ -87,11 +90,6 @@ const Contact = () => {
         <li>
           <a href='https://www.twitch.tv/hitalin4668' className={linkStyles}>
             <FaTwitch /> Twitch
-          </a>
-        </li>
-        <li>
-          <a href='https://discord.gg/nGZgf3NRZU' className={linkStyles}>
-            <FaDiscord /> Discord
           </a>
         </li>
         <li>
