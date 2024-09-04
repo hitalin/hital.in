@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 import Bubble from '../components/Bubble';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Banner from '../components/Banner';
 import Message from '../components/Message';
 import { css } from '../../styled-system/css';
 
@@ -44,6 +45,9 @@ export default function Home() {
         </div>
         <div id='contact' className={componentWrapperStyles}>
           <Contact />
+        </div>
+        <div id='banner' className={componentWrapperStyles}>
+          <Banner />
         </div>
         <div id='message' className={componentWrapperStyles}>
           <Message />
