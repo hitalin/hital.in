@@ -1,4 +1,4 @@
-import { FaStickyNote, FaTwitter, FaInstagram, FaTelegramPlane, FaGithub, FaTwitch, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaStickyNote, FaInstagram, FaTelegramPlane, FaGithub, FaTwitch, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
 import { BsThreads } from 'react-icons/bs';
 import { PiButterflyFill } from 'react-icons/pi';
@@ -22,11 +22,6 @@ const Contact = () => {
         <li>
           <a href='https://note.com/hitalin' className={linkStyles}>
             <FaStickyNote /> note
-          </a>
-        </li>
-        <li>
-          <a href='https://twitter.com/hitalin4668' className={linkStyles}>
-            <FaTwitter /> Twitter
           </a>
         </li>
         <li>
