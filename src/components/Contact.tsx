@@ -1,6 +1,5 @@
-import { FaStickyNote, FaInstagram, FaTelegramPlane, FaGithub, FaTwitch, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaTelegramPlane, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
-import { BsThreads } from 'react-icons/bs';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 
@@ -20,11 +19,6 @@ const Contact = () => {
     <div className={iconStyles}>
       <ul>
         <li>
-          <a href='https://note.com/hitalin' className={linkStyles}>
-            <FaStickyNote /> note
-          </a>
-        </li>
-        <li>
           <a href='https://bsky.app/profile/hitalin.bsky.social' className={linkStyles}>
             <PiButterflyFill /> Bluesky
           </a>
@@ -37,16 +31,6 @@ const Contact = () => {
         <li>
           <a href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
-          </a>
-        </li>
-        <li>
-          <a href='https://www.instagram.com/hitalin18mg' className={linkStyles}>
-            <FaInstagram /> Instagram
-          </a>
-        </li>
-        <li>
-          <a href='https://www.threads.net/@hitalin18mg' className={linkStyles}>
-            <BsThreads /> Threads
           </a>
         </li>
         <li>
@@ -80,11 +64,6 @@ const Contact = () => {
         <li>
           <a href='https://www.pixiv.net/users/38051734' className={linkStyles}>
             <SiPixiv /> Pixiv
-          </a>
-        </li>
-        <li>
-          <a href='https://www.twitch.tv/hitalin18mg' className={linkStyles}>
-            <FaTwitch /> Twitch
           </a>
         </li>
         <li>
