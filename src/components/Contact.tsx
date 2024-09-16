@@ -1,4 +1,4 @@
-import { FaTelegramPlane, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
@@ -59,6 +59,11 @@ const Contact = () => {
         <li>
           <a href='mailto:hitalin@proton.me' className={linkStyles}>
             <MdEmail /> Email
+          </a>
+        </li>
+        <li>
+          <a href='https://keybase.io/hitalin' className={linkStyles}>
+            <FaKeybase /> Keybase
           </a>
         </li>
         <li>
