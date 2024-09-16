@@ -40,12 +40,12 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.instagram.com/hitalin4668' className={linkStyles}>
+          <a href='https://www.instagram.com/hitalin18mg' className={linkStyles}>
             <FaInstagram /> Instagram
           </a>
         </li>
         <li>
-          <a href='https://www.threads.net/@hitalin4668' className={linkStyles}>
+          <a href='https://www.threads.net/@hitalin18mg' className={linkStyles}>
             <BsThreads /> Threads
           </a>
         </li>
@@ -83,7 +83,7 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.twitch.tv/hitalin4668' className={linkStyles}>
+          <a href='https://www.twitch.tv/hitalin18mg' className={linkStyles}>
             <FaTwitch /> Twitch
           </a>
         </li>
