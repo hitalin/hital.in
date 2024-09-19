@@ -1,5 +1,5 @@
 import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 
@@ -31,6 +31,11 @@ const Contact = () => {
         <li>
           <a href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
+          </a>
+        </li>
+        <li>
+          <a href='https://write.as/hitalin/' className={linkStyles}>
+            <SiWritedotas /> Write.as
           </a>
         </li>
         <li>
