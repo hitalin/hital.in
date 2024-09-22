@@ -1,7 +1,7 @@
 import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
 import { PiButterflyFill } from 'react-icons/pi';
-import { MdEmail } from 'react-icons/md';
+import { MdAddAPhoto, MdEmail } from 'react-icons/md';
 
 import { css } from '../../styled-system/css';
 
@@ -36,6 +36,11 @@ const Contact = () => {
         <li>
           <a href='https://write.as/hitalin/' className={linkStyles}>
             <SiWritedotas /> Write.as
+          </a>
+        </li>
+        <li>
+          <a href='https://snap.as/hitalin/' className={linkStyles}>
+            <MdAddAPhoto /> Snap.as
           </a>
         </li>
         <li>
