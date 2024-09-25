@@ -1,5 +1,5 @@
 import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv, SiOsu } from 'react-icons/si';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdAddAPhoto, MdEmail } from 'react-icons/md';
 
@@ -84,6 +84,11 @@ const Contact = () => {
         <li>
           <a href='https://www.pixiv.net/users/38051734' className={linkStyles}>
             <SiPixiv /> Pixiv
+          </a>
+        </li>
+        <li>
+          <a href='https://osu.ppy.sh/users/36746284' className={linkStyles}>
+            <SiOsu /> OSU!
           </a>
         </li>
         <li>
