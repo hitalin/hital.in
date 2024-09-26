@@ -1,5 +1,6 @@
 import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv, SiOsu } from 'react-icons/si';
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdAddAPhoto, MdEmail } from 'react-icons/md';
 
@@ -18,6 +19,11 @@ const Contact = () => {
   return (
     <div className={iconStyles}>
       <ul>
+        <li>
+          <a href='https://x.com/hitalin2' className={linkStyles}>
+            <FaSquareXTwitter /> Twitter
+          </a>
+        </li>
         <li>
           <a href='https://bsky.app/profile/hitalin.bsky.social' className={linkStyles}>
             <PiButterflyFill /> Bluesky
