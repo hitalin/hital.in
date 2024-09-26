@@ -1,4 +1,4 @@
-import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaMastodon, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv, SiOsu } from 'react-icons/si';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { PiButterflyFill } from 'react-icons/pi';
@@ -32,6 +32,11 @@ const Contact = () => {
         <li>
           <a href='https://yami.ski/@hitalin' className={linkStyles}>
             <SiMisskey /> Misskey
+          </a>
+        </li>
+        <li>
+          <a href='https://four-nine.club/@hitalin' className={linkStyles}>
+            <FaMastodon /> Mastodon
           </a>
         </li>
         <li>
