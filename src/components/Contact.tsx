@@ -25,7 +25,7 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://bsky.app/profile/hitalin.bsky.social' className={linkStyles}>
+          <a href='https://bsky.app/profile/hital.in' className={linkStyles}>
             <PiButterflyFill /> Bluesky
           </a>
         </li>
