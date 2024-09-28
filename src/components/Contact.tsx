@@ -20,7 +20,7 @@ const Contact = () => {
     <div className={iconStyles}>
       <ul>
         <li>
-          <a href='https://x.com/hitalin2' className={linkStyles}>
+          <a href='https://x.com/hita1in' className={linkStyles}>
             <FaSquareXTwitter /> Twitter
           </a>
         </li>
