@@ -13,6 +13,7 @@ const iconStyles = css({
 const linkStyles = css({
   display: 'flex',
   alignItems: 'center',
+  color: 'var(--text-color)',
 });
 
 const Contact = () => {

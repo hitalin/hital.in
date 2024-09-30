@@ -20,14 +20,14 @@
 }
 
 :root {
-  --gradient-color: linear-gradient(to bottom, #87CEEB, #1E90FF, #4B0082);
+  --gradient-color: linear-gradient(to bottom, #87CEEB, #4094e9, #4B0082);
   --wave-color: #1E90FF;
   --text-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --gradient-color: linear-gradient(to bottom, #437daf, #023e8a, #240b36);
+    --gradient-color: linear-gradient(to bottom, #4369af, #364096, #240b36);
     --wave-color: #023e8a;
     --text-color: white;
   }

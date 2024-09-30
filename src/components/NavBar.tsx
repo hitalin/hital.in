@@ -36,8 +36,8 @@ const NavBar = () => {
         <title> </title>
         <defs>
           <linearGradient id="waveGradient">
-            <stop offset="0%" stopColor="#ffffff" />
-            <stop offset="90%" stopColor="#ffffff" />
+            <stop offset="0%" stopColor='var(--wave-color)' />
+            <stop offset="90%" stopColor='var(--wave-color)' />
           </linearGradient>
         </defs>
         <path fill="none" stroke="url(#waveGradient)" strokeWidth="1">

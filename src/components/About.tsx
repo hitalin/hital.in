@@ -4,6 +4,7 @@ import { css } from '../../styled-system/css';
 const nameStyles = css({
   fontSize: '2rem',
   fontWeight: 'bold',
+  color: 'var(--text-color)',
 });
 
 const avatarStyles = css({
