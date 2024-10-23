@@ -54,6 +54,10 @@ html, body {
   color: var(--text-color);
 }
 
+body {
+  min-height: 100vh;
+}
+
 .active-link {
   color: var(--active-link-color);
 }
