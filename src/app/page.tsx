@@ -41,6 +41,15 @@ export default function Home() {
   const [activeComponent, setActiveComponent] = useState<string | null>(null);
 
   useEffect(() => {
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+      setActiveComponent(hash);
+    } else {
+      setActiveComponent('about');
+    }
+  }, []);
+
+  useEffect(() => {
     if (activeComponent) {
       window.location.hash = activeComponent;
     }
