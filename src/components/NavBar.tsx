@@ -1,6 +1,4 @@
-// NavBar.tsx
-import Link from 'next/link';
-import { css } from '../../styled-system/css';
+import { css, cx } from '../../styled-system/css';
 
 const navStyles = css({
   display: 'flex',
@@ -10,13 +8,15 @@ const navStyles = css({
   position: 'fixed',
   zIndex: 2,
   justifyContent: 'space-around',
-  background: 'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0))'
+  background: 'linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0))'
 });
 
 const linkStyles = css({
   position: 'relative',
   zIndex: 1,
   color: 'var(--text-color)',
+  cursor: 'pointer',
+  paddingTop: '0.5rem',
 });
 
 const horizontalWaveStyles = css({
@@ -29,7 +29,12 @@ const horizontalWaveStyles = css({
   },
 });
 
-const NavBar = () => {
+interface NavBarProps {
+  activeComponent: string | null;
+  setActiveComponent: (component: string) => void;
+}
+
+const NavBar: React.FC<NavBarProps> = ({ activeComponent, setActiveComponent }) => {
   return (
     <nav className={navStyles}>
       <svg className={horizontalWaveStyles} viewBox="0 0 1440 12">
@@ -59,12 +64,20 @@ const NavBar = () => {
           />
         </path>
       </svg>
-      <Link href='#about' className={linkStyles} title='About'>
+      <div
+        className={cx(linkStyles, activeComponent === 'about' && 'active-link')}
+        onClick={() => setActiveComponent('about')}
+        title='About'
+      >
         <p>About</p>
-      </Link>
-      <Link href='#contact' className={linkStyles} title='Contact'>
+      </div>
+      <div
+        className={cx(linkStyles, activeComponent === 'contact' && 'active-link')}
+        onClick={() => setActiveComponent('contact')}
+        title='Contact'
+      >
         <p>Contact</p>
-      </Link>
+      </div>
     </nav>
   );
 };

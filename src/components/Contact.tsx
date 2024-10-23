@@ -9,6 +9,7 @@ import { css } from '../../styled-system/css';
 const iconStyles = css({
   fontSize: '1.2rem',
   color: 'white',
+  marginTop: '1rem',
 });
 const linkStyles = css({
   display: 'flex',

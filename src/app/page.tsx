@@ -1,9 +1,10 @@
+"use client";
+
+import { useState, useEffect } from 'react';
 import NavBar from '../components/NavBar';
 import Bubble from '../components/Bubble';
 import About from '../components/About';
 import Contact from '../components/Contact';
-import Banner from '../components/Banner';
-import Message from '../components/Message';
 import { css } from '../../styled-system/css';
 
 const oceanBackgroundStyles = css({
@@ -25,6 +26,7 @@ const containerStyles = css({
   zIndex: 1,
   color: 'white',
   minHeight: '100vh',
+  paddingTop: '5rem',
 });
 
 const componentWrapperStyles = css({
@@ -36,21 +38,31 @@ const componentWrapperStyles = css({
 });
 
 export default function Home() {
+  const [activeComponent, setActiveComponent] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (activeComponent) {
+      window.location.hash = activeComponent;
+    }
+  }, [activeComponent]);
+
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'about':
+        return <About />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className={oceanBackgroundStyles}>
       <main className={containerStyles}>
-        <NavBar />
-        <div id='about' className={componentWrapperStyles}>
-          <About />
-        </div>
-        <div id='contact' className={componentWrapperStyles}>
-          <Contact />
-        </div>
-        <div id='banner' className={componentWrapperStyles}>
-          <Banner />
-        </div>
-        <div id='message' className={componentWrapperStyles}>
-          <Message />
+        <NavBar activeComponent={activeComponent} setActiveComponent={setActiveComponent} />
+        <div className={componentWrapperStyles}>
+          {renderComponent()}
         </div>
         <Bubble />
       </main>
