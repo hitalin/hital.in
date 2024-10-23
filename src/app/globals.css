@@ -30,6 +30,17 @@
   }
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 :root {
   --gradient-color: linear-gradient(to bottom, #c7efff, #94c8fc, #8880ff);
   --wave-color: rgba(123, 189, 255, 0.8);

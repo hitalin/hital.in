@@ -8,6 +8,7 @@ const avatarStyles = css({
   overflow: 'hidden',
   border: '0.125rem solid transparent',
   boxShadow: '0 0 5px rgba(0, 0, 0, 0.1)',
+  animation: 'fadeInUp 1s ease-out',
 });
 
 const nameStyles = css({
@@ -16,6 +17,7 @@ const nameStyles = css({
   fontFamily: 'sans-serif',
   textAlign: 'center',
   color: 'var(--text-color)',
+  animation: 'fadeInUp 1s ease-out',
 });
 
 const bioStyles = css({
@@ -23,6 +25,7 @@ const bioStyles = css({
   fontFamily: 'sans-serif',
   textAlign: 'center',
   color: 'var(--text-color)',
+  animation: 'fadeInUp 1s ease-out',
 });
 
 const About = () => {

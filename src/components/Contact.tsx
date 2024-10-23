@@ -3,14 +3,15 @@ import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEther
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdAddAPhoto, MdEmail } from 'react-icons/md';
-
 import { css } from '../../styled-system/css';
 
 const iconStyles = css({
   fontSize: '1.2rem',
   color: 'white',
   marginTop: '1rem',
+  animation: 'fadeInUp 1s ease-out',
 });
+
 const linkStyles = css({
   display: 'flex',
   alignItems: 'center',
