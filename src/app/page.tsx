@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { ParallaxProvider } from 'react-scroll-parallax';
 import NavBar from '../components/NavBar';
 import Bubble from '../components/Bubble';
 import About from '../components/About';
@@ -68,16 +67,14 @@ export default function Home() {
   };
 
   return (
-    <ParallaxProvider>
-      <div className={oceanBackgroundStyles}>
-        <main className={containerStyles}>
-          <NavBar activeComponent={activeComponent} setActiveComponent={setActiveComponent} />
-          <div className={componentWrapperStyles}>
-            {renderComponent()}
-          </div>
-          <Bubble />
-        </main>
-      </div>
-    </ParallaxProvider>
+    <div className={oceanBackgroundStyles}>
+      <main className={containerStyles}>
+        <NavBar activeComponent={activeComponent} setActiveComponent={setActiveComponent} />
+        <div className={componentWrapperStyles}>
+          {renderComponent()}
+        </div>
+        <Bubble />
+      </main>
+    </div>
   );
 }

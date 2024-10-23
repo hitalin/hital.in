@@ -1,10 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Providers } from './providers';
 
 export const metadata: Metadata = {
   title: 'ひたりん',
-  description: 'Medicine cures vulnerability, but vulnerability is the essence of humanity.',
+  description: 'home security guard',
 };
 
 export default function RootLayout({
@@ -15,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <Providers>{children}</Providers>
+        {children}
       </body>
     </html>
   );

@@ -9,7 +9,7 @@ const iconStyles = css({
   fontSize: '1.2rem',
   color: 'white',
   marginTop: '1rem',
-  animation: 'fadeInUp 1s ease-out',
+  animation: 'fadeInUp 1s ease-out', // アニメーションを適用
 });
 
 const linkStyles = css({
