@@ -14,7 +14,7 @@ const avatarStyles = css({
 const nameStyles = css({
   fontSize: '1.8rem',
   fontWeight: 'bold',
-  fontFamily: 'sans-serif',
+  fontFamily: 'Kiwi Maru',
   textAlign: 'center',
   color: 'var(--text-color)',
   animation: 'fadeInUp 1s ease-out',
@@ -22,7 +22,7 @@ const nameStyles = css({
 
 const bioStyles = css({
   fontSize: '1.2rem',
-  fontFamily: 'sans-serif',
+  fontFamily: 'Kiwi Maru',
   textAlign: 'center',
   color: 'var(--text-color)',
   animation: 'fadeInUp 1s ease-out',

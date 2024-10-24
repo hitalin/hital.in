@@ -16,6 +16,7 @@ const linkStyles = css({
   display: 'flex',
   alignItems: 'center',
   color: 'var(--text-color)',
+  fontFamily: 'Kiwi Maru',
 });
 
 const Contact = () => {

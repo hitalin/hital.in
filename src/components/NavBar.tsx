@@ -17,6 +17,7 @@ const linkStyles = css({
   color: 'var(--text-color)',
   cursor: 'pointer',
   paddingTop: '0.5rem',
+  fontFamily: 'Kiwi Maru',
 });
 
 const horizontalWaveStyles = css({
