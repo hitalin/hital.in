@@ -23,8 +23,8 @@ const nameStyles = css({
 const bioStyles = css({
   fontSize: '1.2rem',
   fontFamily: 'Kiwi Maru',
-  textAlign: 'center',
   color: 'var(--text-color)',
+  textAlign: 'center',
   animation: 'fadeInUp 1s ease-out',
 });
 
@@ -39,7 +39,11 @@ const About = () => {
         <h1>hitalin</h1>
       </div>
       <div className={bioStyles}>
-        <p>home security guard</p>
+        <p>I'm home security guard</p>
+        <br></br>
+        <p>Field of Study: Machine Learning and Information Security</p>
+        <p>Hobbies: CTF(crypto, pwn, rev), DTM(alternative rock, vocaloid)</p>
+        <p>Gadget: ThinkPad, Google Pixel, Fender JAPAN Jazzmaster</p>
        </div>
     </div>
   );
