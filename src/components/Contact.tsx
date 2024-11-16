@@ -39,23 +39,8 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://four-nine.club/@hitalin' className={linkStyles}>
-            <FaMastodon /> Mastodon
-          </a>
-        </li>
-        <li>
           <a href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
-          </a>
-        </li>
-        <li>
-          <a href='https://write.as/hitalin/' className={linkStyles}>
-            <SiWritedotas /> Write.as
-          </a>
-        </li>
-        <li>
-          <a href='https://snap.as/hitalin/' className={linkStyles}>
-            <MdAddAPhoto /> Snap.as
           </a>
         </li>
         <li>
