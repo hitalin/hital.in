@@ -1,8 +1,8 @@
-import { FaMastodon, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv, SiOsu } from 'react-icons/si';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { PiButterflyFill } from 'react-icons/pi';
-import { MdAddAPhoto, MdEmail } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import { css } from '../../styled-system/css';
 
 const iconStyles = css({
@@ -41,6 +41,11 @@ const Contact = () => {
         <li>
           <a href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
+          </a>
+        </li>
+        <li>
+          <a href='https://write.as/hitalin/' className={linkStyles}>
+            <SiWritedotas /> Write.as
           </a>
         </li>
         <li>
