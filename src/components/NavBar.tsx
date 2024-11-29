@@ -79,6 +79,13 @@ const NavBar: React.FC<NavBarProps> = ({ activeComponent, setActiveComponent }) 
       >
         <p>Contact</p>
       </div>
+      <div
+        className={cx(linkStyles, activeComponent === 'link' && 'active-link')}
+        onClick={() => setActiveComponent('link')}
+        title='Link'
+      >
+        <p>Link</p>
+      </div>
     </nav>
   );
 };

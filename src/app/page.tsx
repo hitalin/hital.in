@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar';
 import Bubble from '../components/Bubble';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Link from '../components/Link';
 import { css } from '../../styled-system/css';
 
 const oceanBackgroundStyles = css({
@@ -61,6 +62,8 @@ export default function Home() {
         return <About />;
       case 'contact':
         return <Contact />;
+      case 'link':
+        return <Link />;
       default:
         return null;
     }
