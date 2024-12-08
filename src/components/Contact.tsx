@@ -1,6 +1,6 @@
-import { FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiPixiv, SiOsu } from 'react-icons/si';
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { css } from '../../styled-system/css';
@@ -9,7 +9,7 @@ const iconStyles = css({
   fontSize: '1.2rem',
   color: 'white',
   marginTop: '1rem',
-  animation: 'fadeInUp 1s ease-out', // アニメーションを適用
+  animation: 'fadeInUp 1s ease-out',
 });
 
 const linkStyles = css({
@@ -87,6 +87,11 @@ const Contact = () => {
           </a>
         </li>
         <li>
+          <a href='https://soundcloud.com/hitalin' className={linkStyles}>
+            <FaSoundcloud /> Soundcloud
+          </a>
+        </li>
+        <li>
           <a href='https://www.pixiv.net/users/38051734' className={linkStyles}>
             <SiPixiv /> Pixiv
           </a>
@@ -117,3 +122,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
