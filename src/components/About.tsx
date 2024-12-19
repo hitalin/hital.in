@@ -40,6 +40,8 @@ const About = () => {
       </div>
       <div className={bioStyles}>
         <p>I'm home security guard</p>
+        <br></br>
+        <p>Hobbies: CTF(crypto, pwn, rev), DTM(alternative rock, vocaloid)</p>
        </div>
     </div>
   );
