@@ -3,6 +3,7 @@ import { SiThreads, SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXm
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
+import { GiOstrich } from "react-icons/gi";
 import { css } from '../../styled-system/css';
 
 const iconStyles = css({
@@ -41,6 +42,11 @@ const Contact = () => {
         <li>
           <a href='https://www.threads.net/@hita1in' className={linkStyles}>
             <SiThreads />  Threads
+          </a>
+        </li>
+        <li>
+          <a href='https://iris.to/npub10xprwmetx58h8y2rqns22zq8zazrpxufym9wlrgmur8zljxlngms8rxtjj' className={linkStyles}>
+            <GiOstrich /> Nostr
           </a>
         </li>
         <li>
