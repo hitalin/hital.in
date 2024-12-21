@@ -1,6 +1,6 @@
 import { FaTwitch, FaInstagram, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiThreads, SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiNiconico, SiPixiv, SiOsu } from 'react-icons/si';
-import { FaSquareXTwitter } from 'react-icons/fa6';
+import { FaSquareXTwitter, FaPencil } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { GiOstrich } from "react-icons/gi";
@@ -110,6 +110,11 @@ const Contact = () => {
         <li>
           <a href='https://www.nicovideo.jp/user/95796240' className={linkStyles}>
             <SiNiconico /> NicoNico
+          </a>
+        </li>
+        <li>
+          <a href='https://app.studyplus.jp/users/95860756a0b743a799d76e52b1032e20' className={linkStyles}>
+            <FaPencil /> Studyplus
           </a>
         </li>
         <li>
