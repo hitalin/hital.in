@@ -1,4 +1,4 @@
-import { FaMastodon, FaTwitch, FaInstagram, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaMastodon, FaTwitch, FaInstagram, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiThreads, SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiNiconico, SiPixiv, SiOsu } from 'react-icons/si';
 import { FaSquareXTwitter, FaPencil } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
@@ -105,6 +105,11 @@ const Contact = () => {
         <li>
           <a href='https://github.com/hitalin' className={linkStyles}>
             <FaGithub /> GitHub
+          </a>
+        </li>
+        <li>
+          <a href='https://open.spotify.com/user/umg4mk0sr2sf3wdwypyvog5zi' className={linkStyles}>
+            <FaSpotify /> Spotify
           </a>
         </li>
         <li>
