@@ -50,17 +50,17 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href='https://yami.ski/@hitalin' className={linkStyles}>
+          <a rel="me" href='https://yami.ski/@hitalin' className={linkStyles}>
             <SiMisskey /> Misskey
           </a>
         </li>
         <li>
-          <a href='https://mental.social/@hitalin' className={linkStyles}>
+          <a rel="me" href='https://mental.social/@hitalin' className={linkStyles}>
             <FaMastodon /> Mastodon
           </a>
         </li>
         <li>
-          <a href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
+          <a rel="me" href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
           </a>
         </li>
