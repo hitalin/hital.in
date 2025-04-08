@@ -39,7 +39,7 @@ const About = () => {
         <h1>hitalin</h1>
       </div>
       <div className={bioStyles}>
-        <p>I'm home security guard</p>
+        <p>I'm a home server security guard.</p>
         <br></br>
         <p>Hobbies: CTF(crypto, pwn, rev), DTM(alternative rock, vocaloid)</p>
        </div>
