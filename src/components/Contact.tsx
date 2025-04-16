@@ -55,7 +55,7 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a rel="me" href='https://mental.social/@hitalin' className={linkStyles}>
+          <a rel="me" href='https://fedibird.com/@hitalin' className={linkStyles}>
             <FaMastodon /> Mastodon
           </a>
         </li>
