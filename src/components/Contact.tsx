@@ -1,6 +1,6 @@
-import { FaMastodon, FaTwitch, FaInstagram, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
-import { SiThreads, SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv } from 'react-icons/si';
-import { FaSquareXTwitter, FaPencil } from 'react-icons/fa6';
+import { FaMastodon, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv } from 'react-icons/si';
+import { FaPencil } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { GiOstrich } from "react-icons/gi";
@@ -25,23 +25,8 @@ const Contact = () => {
     <div className={iconStyles}>
       <ul>
         <li>
-          <a href='https://x.com/hita1in' className={linkStyles}>
-            <FaSquareXTwitter /> X
-          </a>
-        </li>
-        <li>
           <a href='https://bsky.app/profile/hital.in' className={linkStyles}>
             <PiButterflyFill /> Bluesky
-          </a>
-        </li>
-        <li>
-          <a href='https://www.instagram.com/hita1in' className={linkStyles}>
-            <FaInstagram /> Instagram
-          </a>
-        </li>
-        <li>
-          <a href='https://www.threads.net/@hita1in' className={linkStyles}>
-            <SiThreads />  Threads
           </a>
         </li>
         <li>
