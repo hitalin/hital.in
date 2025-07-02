@@ -1,6 +1,6 @@
 import { FaMastodon, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv } from 'react-icons/si';
-import { FaPencil } from 'react-icons/fa6';
+import { FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { GiOstrich } from "react-icons/gi";
@@ -115,6 +115,11 @@ const Contact = () => {
         <li>
           <a href='https://app.studyplus.jp/users/95860756a0b743a799d76e52b1032e20' className={linkStyles}>
             <FaPencil /> Studyplus
+          </a>
+        </li>
+        <li>
+          <a href='https://ctftime.org/user/231318' className={linkStyles}>
+            <FaFlag /> CTFtime
           </a>
         </li>
         <li>
