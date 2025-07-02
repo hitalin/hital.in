@@ -1,5 +1,5 @@
 import { FaMastodon, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
 import { FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
@@ -120,6 +120,11 @@ const Contact = () => {
         <li>
           <a href='https://ctftime.org/user/231318' className={linkStyles}>
             <FaFlag /> CTFtime
+          </a>
+        </li>
+        <li>
+          <a href='https://hackerone.com/hitalin?type=user' className={linkStyles}>
+            <SiHackerone /> HackerOne
           </a>
         </li>
         <li>
