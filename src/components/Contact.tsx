@@ -1,5 +1,5 @@
 import { FaMastodon, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
 import { FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
@@ -57,6 +57,11 @@ const Contact = () => {
         <li>
           <a href='https://matrix.to/#/@hitalin:matrix.yami.ski' className={linkStyles}>
             <SiMatrix /> Matrix
+          </a>
+        </li>
+        <li>
+          <a href='https://smp10.simplex.im/a#uKmzOZBG1_0Dx1uBX2c_uoJeoGcACYFJ369_3zL7CJM' className={linkStyles}>
+            <SiSimplex /> Simplex
           </a>
         </li>
         <li>
