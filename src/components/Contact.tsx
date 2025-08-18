@@ -1,4 +1,4 @@
-import { FaMastodon, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaMastodon, FaMarkdown, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
 import { FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
@@ -52,6 +52,11 @@ const Contact = () => {
         <li>
           <a href='https://write.as/hitalin/' className={linkStyles}>
             <SiWritedotas /> Write.as
+          </a>
+        </li>
+        <li>
+          <a href='https://hackmd.io/@hitalin' className={linkStyles}>
+            <FaMarkdown /> HackMD
           </a>
         </li>
         <li>
