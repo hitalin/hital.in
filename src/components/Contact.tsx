@@ -1,6 +1,6 @@
 import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
-import { FaPencil, FaFlag } from 'react-icons/fa6';
+import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { GiOstrich } from "react-icons/gi";
@@ -24,6 +24,11 @@ const Contact = () => {
   return (
     <div className={iconStyles}>
       <ul>
+        <li>
+          <a href='https://x.com/hita1in' className={linkStyles}>
+            <FaXTwitter /> X(Twitter)
+          </a>
+        </li>
         <li>
           <a href='https://bsky.app/profile/hital.in' className={linkStyles}>
             <PiButterflyFill /> Bluesky
