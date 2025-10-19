@@ -26,7 +26,7 @@ const Contact = () => {
       <ul>
         <li>
           <a href='https://x.com/hita1in' className={linkStyles}>
-            <FaXTwitter /> X(Twitter)
+            <FaXTwitter /> X
           </a>
         </li>
         <li>
