@@ -3,7 +3,7 @@ import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXm
 import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
-import { GiOstrich } from "react-icons/gi";
+import { GiOstrich, GiBookshelf } from "react-icons/gi";
 import { css } from '../../styled-system/css';
 
 const iconStyles = css({
@@ -130,6 +130,11 @@ const Contact = () => {
         <li>
           <a href='https://www.nicovideo.jp/user/95796240' className={linkStyles}>
             <SiNiconico /> NicoNico
+          </a>
+        </li>
+        <li>
+          <a href='https://booklog.jp/users/hitalin' className={linkStyles}>
+            <GiBookshelf /> Booklog
           </a>
         </li>
         <li>
