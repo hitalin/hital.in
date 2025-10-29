@@ -1,4 +1,4 @@
-import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard } from 'react-icons/fa';
+import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone } from 'react-icons/si';
 import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
@@ -130,6 +130,11 @@ const Contact = () => {
         <li>
           <a href='https://www.nicovideo.jp/user/95796240' className={linkStyles}>
             <SiNiconico /> NicoNico
+          </a>
+        </li>
+        <li>
+          <a href='https://kakuyomu.jp/users/hitalin' className={linkStyles}>
+            <FaBookOpen /> Kakuyomu
           </a>
         </li>
         <li>
