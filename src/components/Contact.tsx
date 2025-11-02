@@ -9,7 +9,6 @@ import { css } from '../../styled-system/css';
 const containerStyles = css({
   background: 'linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02))',
   backdropFilter: 'blur(16px) saturate(120%)',
-  WebkitBackdropFilter: 'blur(16px) saturate(120%)',
   borderRadius: '1.25rem',
   padding: '0.875rem 1.25rem',
   maxWidth: '480px',
