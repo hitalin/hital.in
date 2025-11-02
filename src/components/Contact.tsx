@@ -6,23 +6,60 @@ import { MdEmail } from 'react-icons/md';
 import { GiOstrich, GiBookshelf } from "react-icons/gi";
 import { css } from '../../styled-system/css';
 
-const iconStyles = css({
-  fontSize: '1.2rem',
+const containerStyles = css({
+  background: 'linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02))',
+  backdropFilter: 'blur(16px) saturate(120%)',
+  WebkitBackdropFilter: 'blur(16px) saturate(120%)',
+  borderRadius: '1.25rem',
+  padding: '1.5rem 2rem',
+  maxWidth: '480px',
+  width: '90%',
+  margin: '0 auto',
+  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(0, 0, 0, 0.04)',
+  animation: 'fadeInUp 1s ease-out',
+  transition: 'all 0.3s ease',
+  fontSize: '1.05rem',
   color: 'white',
   marginTop: '1rem',
-  animation: 'fadeInUp 1s ease-out',
+  '&:hover': {
+    background: 'linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03))',
+    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05)',
+  },
+  '& ul': {
+    listStyle: 'none',
+    padding: 0,
+    margin: 0,
+  },
+  '& li': {
+    marginBottom: '0.4rem',
+  },
+  '@media (max-width: 640px)': {
+    padding: '1.25rem 1.5rem',
+    width: '85%',
+    fontSize: '1rem',
+  },
 });
 
 const linkStyles = css({
   display: 'flex',
   alignItems: 'center',
+  gap: '0.5rem',
   color: 'var(--text-color)',
   fontFamily: 'Kiwi Maru',
+  transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
+  padding: '0.3rem 0.5rem',
+  margin: '0 -0.5rem',
+  borderRadius: '0.5rem',
+  '&:hover': {
+    color: 'rgba(255, 255, 255, 0.95)',
+    background: 'rgba(255, 255, 255, 0.08)',
+    transform: 'translateX(6px)',
+  },
 });
 
 const Contact = () => {
   return (
-    <div className={iconStyles}>
+    <div className={containerStyles}>
       <ul>
         <li>
           <a href='https://x.com/hita1in' className={linkStyles}>
