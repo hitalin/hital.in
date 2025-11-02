@@ -8,7 +8,6 @@ import Contact from '../components/Contact';
 import { css } from '../../styled-system/css';
 
 const oceanBackgroundStyles = css({
-  background: 'var(--gradient-color)',
   zIndex: -1,
   minHeight: '100vh',
   display: 'flex',

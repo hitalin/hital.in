@@ -60,11 +60,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  background: var(--gradient-color);
-  color: var(--text-color);
-}
-
-body {
   min-height: 100vh;
+  background: var(--gradient-color);
+  background-attachment: fixed;
+  color: var(--text-color);
 }
