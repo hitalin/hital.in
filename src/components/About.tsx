@@ -6,7 +6,7 @@ const containerStyles = css({
   backdropFilter: 'blur(16px) saturate(120%)',
   WebkitBackdropFilter: 'blur(16px) saturate(120%)',
   borderRadius: '1.25rem',
-  padding: '2rem',
+  padding: '1rem',
   maxWidth: '480px',
   width: '90%',
   margin: '0 auto',
@@ -18,7 +18,7 @@ const containerStyles = css({
     boxShadow: '0 12px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05)',
   },
   '@media (max-width: 640px)': {
-    padding: '1.5rem',
+    padding: '0.875rem',
     width: '85%',
   },
 });
@@ -44,8 +44,8 @@ const nameStyles = css({
   fontFamily: 'Kiwi Maru',
   textAlign: 'center',
   color: 'var(--text-color)',
-  marginTop: '1rem',
-  marginBottom: '0.5rem',
+  marginTop: '0.375rem',
+  marginBottom: '0.2rem',
   '& h1': {
     margin: 0,
   },
