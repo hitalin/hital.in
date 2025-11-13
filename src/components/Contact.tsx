@@ -1,4 +1,4 @@
-import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen } from 'react-icons/fa';
+import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen, FaCompass, FaDoorOpen } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone, SiOsu } from 'react-icons/si';
 import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
@@ -197,6 +197,16 @@ const Contact = () => {
         <li>
           <a href='https://hackerone.com/hitalin?type=user' className={linkStyles}>
             <SiHackerone /> HackerOne
+          </a>
+        </li>
+        <li>
+          <a href='https://connpass.com/user/hitalin' className={linkStyles}>
+            <FaCompass /> Connpass
+          </a>
+        </li>
+        <li>
+          <a href='https://www.doorkeeper.jp/users/hitalin' className={linkStyles}>
+            <FaDoorOpen /> DoorKeeper
           </a>
         </li>
         <li>
