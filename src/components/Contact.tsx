@@ -4,6 +4,7 @@ import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
 import { GiOstrich, GiBookshelf } from "react-icons/gi";
+import { AiFillThunderbolt } from "react-icons/ai";
 import { css } from '../../styled-system/css';
 
 const containerStyles = css({
@@ -237,6 +238,11 @@ const Contact = () => {
         <li>
           <a href='https://app.ens.domains/hital.in' className={linkStyles}>
             <SiEthereum /> Ethereum
+          </a>
+        </li>
+        <li>
+          <a href='https://snapshot.org/#/profile/0x050bCc933D8A38c612D3D77bC5f9aE449DD294eB' className={linkStyles}>
+            <AiFillThunderbolt /> Snapshot
           </a>
         </li>
       </ul>
