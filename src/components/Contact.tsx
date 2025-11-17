@@ -1,8 +1,9 @@
 import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen, FaCompass, FaDoorOpen } from 'react-icons/fa';
 import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone, SiOsu } from 'react-icons/si';
-import { FaXTwitter, FaPencil, FaFlag } from 'react-icons/fa6';
+import { FaXTwitter, FaRegNoteSticky, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
+import { CiStickyNote } from "react-icons/ci";
 import { GiOstrich, GiBookshelf } from "react-icons/gi";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { css } from '../../styled-system/css';
@@ -95,6 +96,11 @@ const Contact = () => {
         <li>
           <a rel="me" href='https://fedi.absturztau.be/hitalin' className={linkStyles}>
             <SiPleroma /> Pleroma
+          </a>
+        </li>
+        <li>
+          <a href='https://note.com/hitalin' className={linkStyles}>
+            <FaRegNoteSticky /> note
           </a>
         </li>
         <li>
