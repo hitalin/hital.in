@@ -1,5 +1,5 @@
 import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen, FaCompass, FaDoorOpen } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiEthereum, SiSuno, SiNiconico, SiPixiv, SiHackerone, SiOsu } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiSuno, SiNiconico, SiPixiv, SiHackerone, SiOsu } from 'react-icons/si';
 import { FaXTwitter, FaRegNoteSticky, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
@@ -239,11 +239,6 @@ const Contact = () => {
         <li>
           <a href='https://osu.ppy.sh/users/36746284' className={linkStyles}>
             <SiOsu /> OSU!
-          </a>
-        </li>
-        <li>
-          <a href='https://app.ens.domains/hital.in' className={linkStyles}>
-            <SiEthereum /> Ethereum
           </a>
         </li>
         <li>
