@@ -71,7 +71,7 @@ const About = () => {
       <div className={bioStyles}>
         <p>I'm a home server security guard.</p>
         <br></br>
-        <p>Hobbies: CTF(crypto, pwn, rev), DTM(alternative rock, vocaloid)</p>
+        <p>Hobbies: CTF(web, crypto, pwn), DTM(alternative rock, vocaloid)</p>
        </div>
     </div>
   );
