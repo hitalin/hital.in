@@ -1,9 +1,8 @@
 import { FaMastodon, FaMarkdown, FaRss, FaTwitch, FaSpotify, FaSoundcloud, FaTelegramPlane, FaKeybase, FaGithub, FaSteam, FaVrCardboard, FaBookOpen, FaCompass, FaDoorOpen } from 'react-icons/fa';
-import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiSuno, SiNiconico, SiPixiv, SiHackerone, SiOsu } from 'react-icons/si';
+import { SiMisskey, SiPleroma, SiWritedotas, SiMatrix, SiSimplex, SiSignal, SiXmpp, SiSuno, SiNiconico, SiPixiv, SiOllama, SiHackerone, SiOsu } from 'react-icons/si';
 import { FaXTwitter, FaRegNoteSticky, FaPencil, FaFlag } from 'react-icons/fa6';
 import { PiButterflyFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
-import { CiStickyNote } from "react-icons/ci";
 import { GiOstrich, GiBookshelf } from "react-icons/gi";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { css } from '../../styled-system/css';
@@ -199,6 +198,11 @@ const Contact = () => {
         <li>
           <a href='https://ctftime.org/user/231318' className={linkStyles}>
             <FaFlag /> CTFtime
+          </a>
+        </li>
+        <li>
+          <a href='https://alpacahack.com/users/hitalin' className={linkStyles}>
+            <SiOllama /> AlpacaHack
           </a>
         </li>
         <li>
